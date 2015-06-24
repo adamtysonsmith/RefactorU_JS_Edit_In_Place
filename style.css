@@ -1,0 +1,85 @@
+/******************************/
+/* Utility */
+/******************************/
+.clear-left {
+    clear: left;   
+}
+
+
+
+/******************************/
+/* Page Layout */
+/******************************/
+body {
+    width: 40%;
+    margin: 0% 40% 0% 20%;
+}
+
+.user-img {
+    float: left;
+}
+.name {
+    padding-top: 20px;
+	padding-left: 240px;
+	margin-bottom: 0;
+}
+.title {
+	padding-left: 240px;
+	margin-top: 0;
+}
+
+.status, .about, .interests {
+	width: 100%;
+	border: 2px solid #dfdfdf;
+	margin-top: 120px;
+	padding: 20px;
+    overflow: hidden; /* Create BFC */
+}
+.about, .interests {
+	margin-top: 40px;
+}
+
+
+
+/******************************/
+/* Styles */
+/******************************/
+body {
+    font-family: Helvetica, Arial, sans-serif;  
+}
+
+.name, .title {
+    font-size: 50px;
+    font-weight: 100;
+    color: #939393;
+}
+.title {
+    font-size: 40px;
+    color: #d4d4d4;
+}
+
+.status, .about, .interests {
+	color: gray;
+	border: 2px solid #dfdfdf;
+}
+
+.status-update {
+    font-size: 20px;
+    color: cadetblue;
+}
+
+.about-labels {
+    font-weight: bold;
+    float: left;
+}
+.about-item-list {
+    float: left;
+}
+.about-item {
+    list-style: none;
+    color: cadetblue;
+}
+
+.interest-item {
+    color: cadetblue;
+}
