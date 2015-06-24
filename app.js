@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.input').hide(); // Hide all inputs on page load
     
-    $('.click-edit').on('click', function() {
+    $('.editable').on('click', function() {
         // Hide the editable item
         var clickedElement = $(this);
         clickedElement.hide();
