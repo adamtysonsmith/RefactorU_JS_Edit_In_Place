@@ -5,7 +5,9 @@
     clear: left;   
 }
 
-
+.click-edit {
+    /* jQuery Click Utility */
+}
 
 /******************************/
 /* Page Layout */
@@ -39,6 +41,12 @@ body {
 	margin-top: 40px;
 }
 
+.about-labels {
+    float: left;
+}
+.about-item-list {
+    float: left;
+}
 
 
 /******************************/
@@ -70,13 +78,12 @@ body {
 
 .about-labels {
     font-weight: bold;
-    float: left;
+
 }
-.about-item-list {
-    float: left;
+.about-item-list li {
+    list-style: none; 
 }
 .about-item {
-    list-style: none;
     color: cadetblue;
 }
 
